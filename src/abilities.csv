@@ -1,0 +1,44 @@
+Class,SubClass,Ability Name,Ability Damage min,Ability Damage Max,Ability Duration,Stun Duration,Bind Duration,bleed hits,Number of hits,Energy Cost,Defence,Adds Status to User,Status Duration,Adds Status to Opponent,Conditions,Condition Damage Min,Condition Damage Max,Cooldown,Keybind
+Melee,Strength,Kick,20,100,0,1.2,0,0,1,0,,,,,,,,15,1
+Melee,Strength,Stomp,40,200,0,3.6,0,0,1,50,,,,Stun,,,,15,2
+Melee,Strength,Punish,18,94,0,0,0,0,1,0,,,,,Bound/Stunned,37,188,3,3
+Melee,Strength,Dismember,20,37,0,0,0,5,1,0,,,,Bleed,,,,15,4
+Melee,Strength,Fury,48,246,0,0,0,0,3,0,,,,,,,,5,5
+Melee,Strength,Quake,43,219,0,0,0,0,1,50,,,,,,,,20,6
+Melee,Strength,Cleave,37,188,0,0,0,0,1,0,,,,,,,,7,7
+Melee,Strength,Assault,172,876,0,0,0,0,4,50,,,,,,,,30,8
+Melee,Strength,Pulverize,250,350,0,0,0,0,1,100,25%,,30,,,,,60,9
+Melee,Attack,Slice,30,120,0,0,0,0,1,0,,,,,Bound,80,146,3,0
+Melee,Attack,Backhand,20,100,0,0,0,0,1,0,,,,,,,,15,q
+Melee,Attack,Slaughter,20,50,0,0,0,5,1,50,,,,Bleed,,,,30,w
+Melee,Attack,Overpower,200,400,0,0,0,0,1,100,,,,,,,,30,e
+Melee,Attack,Forceful Backhand,40,200,0,3.6,0,0,1,50,,,,Stun,,,,15,r
+Melee,Attack,Smash,31,157,0,0,0,0,1,0,,,,No_Prayer,,,,10,t
+Melee,Attack,Barge,25,125,0,0,6.6,0,1,0,,,,Bind,,,,20,y
+Melee,Attack,Sever,37,188,0,0,0,0,1,0,10%,,4.8,,,,,15,u
+Melee,Attack,Hurricane,150,380,0,0,0,0,1,50,,,,,,,,20,i
+Melee,Attack,Meteor Strike,250,350,0,0,0,0,1,100,,,,,,,,60,o
+Ranged,Ranged,Piercing Shot,18,94,0,0,0,0,1,0,,,,,Bound/Stunned,37,188,3,
+Ranged,Ranged,Binding Shot,20,100,0,1.2,9.6,0,1,0,,,,Bind/Stun,,,,15,
+Ranged,Ranged,Snap Shot,200,330,0,0,0,0,1,50,,,,,,,,20,
+Ranged,Ranged,Deadshot,347,498,0,0,0,1,1,100,,,,Bleed,,,,30,
+Ranged,Ranged,Tight Bindings,40,200,0,3.6,9.6,0,1,50,,,,Bind/Stun,,,,15,
+Ranged,Ranged,Snipe,125,219,0,0,0,0,1,0,,,,No_Prayer,,,,10,
+Ranged,Ranged,Dazing Shot,31,157,0,0,0,0,1,0,10%,,1,,,,,5,
+Ranged,Ranged,Fragmentation Shot,20,37,0,0,0,5,1,0,,,,Bleed,,,,15,
+Ranged,Ranged,Rapid Fire,150,752,4.8,0,6,0,1,50,,,,Bind,,,,20,
+Ranged,Ranged,Ricochet,20,100,0,0,0,0,1,0,,,,,,,,10,
+Ranged,Ranged,Bombardment,43,219,0,0,0,0,1,50,,,,,,,,30,
+Magic,Magic,Wrack,18,94,0,0,0,0,1,0,,,,,Bound/Stunned,37,188,3,
+Magic,Magic,Impact,20,100,0,1.2,1.2,0,1,0,,,,,,,,15,
+Magic,Magic,Asphyxiate,150,752,4.2,3.6,0,0,4,50,,,,Stun,,,,20,
+Magic,Magic,Omnipower,200,400,0,0,0,0,1,100,,,,,,,,30,
+Magic,Magic,Deep Impact,40,200,0,3.6,3.6,0,1,0,,,,,,,,15,
+Magic,Magic,Dragon Breath,37,188,0,0,0,0,1,0,,,,No_Prayer,,,,10,
+Magic,Magic,Combust,20,37,0,0,0,5,1,0,,,,Burn,,,,15,
+Magic,Magic,Chain,20,100,0,0,0,0,1,0,,,,,,,,10,
+Magic,Magic,Wild Magic,100,430,0,0,0,0,1,50,,,,,,,,20,
+Magic,Magic,Tsunami,200,300,0,0,0,0,1,100,,,,,,,,60,
+All,Defence,Anticipation,0,0,0,0,0,0,1,0,10%,Stun_Immune,10.2,,,,,24,p
+All,Defence,Debilitate,20,100,0,0,0,0,1,50,50%,,7.8,,,,,30,a
+All,Defence,Freedom,0,0,0,0,0,0,0,0,,Stun_Immune,6,,,,,30,s
