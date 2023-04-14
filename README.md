@@ -26,7 +26,7 @@ Seeing as the combat system in RuneScape is quite complex, a simulator was built
 be able to test our algorithms, by allowing us to fight two players against each other quickly and outside of the game. Using gathered data from in game testing, we attempted to replicate the in-game stochasticity within the simulator. 
 
 <p align="center">
-<img src="images/stochastic_block_chance_based_on_combat_style.PNG" alt= “simulator_testing” width="75%" height="75%">
+<img src="images/stochastic_block_chance_based_on_combat_style.PNG" alt= “simulator_testing” width="95%" height="95%">
 </p>
 
 **Notes for the Simulator**
@@ -44,7 +44,7 @@ I'm sure there are other limitations that I have not listed, but hopefully it mi
 ## Results
 Below are the results for 100 simulated combats between a melee player (95 Attack, 90 strength, 90 defence) versus a ranged opponent (99 ranged, 99 defence). The ranged opponent's actions are being dictated by a simple heuristic function that prioritizes damage and will un-stun itself by using freedom if it is ever stunned.
 <p align="center">
-<img src="images/results.PNG" alt= “results” width="75%" height="75%">
+<img src="images/results.PNG" alt= “results” width="95%" height="95%">
 </p>
 
 * **Backwards Chaining (Reversed)**: This is the result of using a backwards chaining algorithm to instead of finding the best actions, cycling through the worst possible combination of actions.
@@ -61,12 +61,12 @@ Note: Player ties are not recorded in the table above (a tie consists of both pl
 Below you can see the ability sequence that was prioritized by the *Backwards Chaining* algorithm, which achieved a 90% win rate.  
 
 <p align="center">
-<img src="images/abilities_exact.PNG" alt= “results” width="75%" height="75%">
+<img src="images/abilities_exact.PNG" alt= “results” width="95%" height="95%">
 </p>
 
 Below you can see the ability sequence that was prioritized by the *Rollout Parametric Approximation* algorithm, which also achieved a 90% win rate.
 <p align="center">
-<img src="images/parametric_rollout_abilities.PNG" alt= “results” width="75%" height="75%">
+<img src="images/parametric_rollout_abilities.PNG" alt= “results” width="95%" height="95%">
 </p>
 
 ## Setup
